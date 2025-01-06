@@ -1,0 +1,21 @@
+{
+    "name": "vendic/hyva-checkout-omnikassa-payment",
+    "description": "Hyvä checkout compatibility module for Omnikassa / Rabo Smart Pay payments",
+    "require": {
+        "php": "~8.2|~8.3",
+        "codebrainbv/omnikassapayment": "^1.0",
+        "hyva-themes/magento2-hyva-checkout": "^1.2"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendic\\HyvaCheckoutOmnikassapayment\\": ""
+        }
+    }
+}

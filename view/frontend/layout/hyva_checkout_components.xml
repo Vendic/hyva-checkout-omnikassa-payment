@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="checkout.payment.methods">
+            <block name="checkout.payment.method.omnikassa_ideal" as="omnikassa_ideal">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/ideal.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_bancontact" as="omnikassa_bancontact">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/bancontact.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_maestro" as="omnikassa_maestro">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/maestro.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_mastercard" as="omnikassa_mastercard">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/mastercard.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_paypal" as="omnikassa_paypal">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/paypal.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_visa" as="omnikassa_visa">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/visa.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+
+            <block name="checkout.payment.method.omnikassa_vpay" as="omnikassa_vpay">
+                <arguments>
+                    <argument name="metadata" xsi:type="array">
+                        <item name="icon" xsi:type="array">
+                            <item name="src" xsi:type="string">Codebrainbv_Omnikassapayment::images/logo/vpay.png</item>
+                            <item name="attributes" xsi:type="array">
+                                <item name="width" xsi:type="string">35px</item>
+                                <item name="loading" xsi:type="string">lazy</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
